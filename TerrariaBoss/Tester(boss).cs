@@ -47,7 +47,7 @@ namespace testing.NPCs.Boss
             npc.HitSound = SoundID.NPCHit1;
             npc.DeathSound = SoundID.NPCDeath9;
             music = MusicID.Boss4;          
-           
+            
             npc.value = 1000f;
 
             npc.lavaImmune = true;
