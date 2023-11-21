@@ -42,6 +42,10 @@ namespace testing.NPCs.Boss
             return Color.Purple;
         }
 
+
+
+
+
         public override void AI()
         {
             projectile.velocity.Y += projectile.ai[0];
