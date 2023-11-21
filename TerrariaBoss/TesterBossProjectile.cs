@@ -37,14 +37,15 @@ namespace testing.NPCs.Boss
             ProjectileID.Sets.TrailCacheLength[projectile.type] = 5;
         }
 
+
+
+
+
+
         public override Color? GetAlpha(Color lightColor)
         {
             return Color.Purple;
         }
-
-
-
-
 
         public override void AI()
         {
